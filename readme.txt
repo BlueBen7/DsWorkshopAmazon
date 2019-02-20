@@ -28,8 +28,5 @@
     1.15. load_reviews [Boolean] - when true, loads train/test dataframe from a cached variable prior to model run. 
                                    can be used to skip all prior cells when testing/ debugging model
     1.16. maximum_scores_on_screen [Integer] - limits the amount of feature scores displayed on screen.
-    1.17. load_pretrained_model [Boolean] - when true, loads pre-trained model (if exists). 
-                                            can be used to evaluate model without re-running model creation cells.
 
 * For recreating figures, scores as seen in the attached pdf, verify load_non_neutral_datasets is set to True.
-* A few pre-trained models for featured categories are included for fast reproduction. (see param 1.17)
